@@ -1,0 +1,132 @@
+/* 
+    Created on : 5 feb 2023, 21:25:28
+    Author     : Steven
+*/
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prompt:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #3d3066, #167eb6);
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    position: absolute;
+    padding-left: 45vh;
+    color: #66ccff;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background-color: #3d3066;
+    margin-bottom: 15px;
+}
+
+nav {
+    flex: 1;
+    padding-top: 25px;
+    padding-left: 105vh;
+    padding-bottom: 25px;
+}
+
+nav ul li {
+    position: static;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #061BCF;
+}
+
+nav ul li a {
+    font-family: 'Prompt', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.resaltado {
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+.logo {
+    position: absolute;
+    padding-left: 1vh;
+    width: 90px;
+    cursor: pointer;
+}
+
+.logo_texto {
+    position: absolute;
+    padding-left: 15vh;
+    width: 150px;
+    cursor: pointer;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.center h2 {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver; 
+}
+
+.center form {
+    padding:0 40px 40px;
+}
+
+form .txt_field {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.txt_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px; 
+}
+
+.button input {
+    font-size: 20px;
+}
+
+.button a {
+    padding-left: 70px;
+    text-decoration: none;
+}
