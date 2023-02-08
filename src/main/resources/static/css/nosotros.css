@@ -1,0 +1,56 @@
+/* 
+    Created on : 2 feb 2023, 16:50:26
+    Author     : Adrian
+*/
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #67A6ED;
+}
+h1{
+    font-family: 'Staatliches', cursive;
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 70px;
+    color:#AE1548;
+    
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: white;
+    display: flex;
+    font-family: regular;
+    font-size: 20px;
+    background-color: #5A96D9;
+    border: 2px solid black;
+    margin: 20px 20px;
+    height: 500px;
+    align-items: center;
+    line-height: 50px; /* CREA INTERLINEADO EN EL TEXTO */
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;
+    flex:1;
+    background-color: #5A96D9;
+    margin-bottom: 15px ;
+}
+.nav-bar ul li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #061BCF;
+}
+footer{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 15px;
+}
