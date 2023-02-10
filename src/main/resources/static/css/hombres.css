@@ -69,3 +69,20 @@ footer{
     margin: 50px 0;
     font-size: 15px;
 }
+.logo {
+    position: absolute;
+    padding-left: 1vh;
+    width: 90px;
+    cursor: pointer;
+}
+
+.logo_texto {
+    position: absolute;
+    padding-left: 15vh;
+    width: 150px;
+    cursor: pointer;
+}
+.resaltado {
+    font-weight: bold;
+    text-decoration: overline;
+}

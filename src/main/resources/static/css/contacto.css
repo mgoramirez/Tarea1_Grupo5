@@ -1,0 +1,147 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 feb. 2023, 13:54:52
+    Author     : Asus
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Prompt:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor {
+    height: 100%;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    background: #564687;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    position: absolute;
+    padding-left: 45vh;
+    color: #66ccff;
+}
+
+
+.nav-bar {
+    display: flex;  
+    align-items: center;
+    flex: 1;
+    background-color: #3d3066;
+    margin-bottom: 15px;
+}
+
+nav {
+    flex: 1;
+    padding-top: 25px;
+    padding-left: 105vh;
+    padding-bottom: 25px;
+}
+
+nav ul li {
+    position: static;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #061BCF;
+}
+
+nav ul li a {
+    font-family: 'Prompt', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.resaltado {
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+.logo {
+    position: absolute;
+    padding-left: 1vh;
+    width: 90px;
+    cursor: pointer;
+}
+
+.logo_texto {
+    position: absolute;
+    padding-left: 15vh;
+    width: 150px;
+    cursor: pointer;
+}
+.contenedor {
+    height: 100%;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+h2 {
+    position: static;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 50px 50px;
+    margin-left: 50px;
+}
+.acomodar {
+    display: flex;
+    position: static;
+    align-items: center;
+    padding-top: 40px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    padding-left: 35vh;
+    color: #ffffff;  
+}
+
+.icon {
+    position: absolute;
+    width: 35px;
+    cursor:pointer;
+}
+.icon2 {
+    position: absolute;
+    width: 35px;
+    cursor:pointer;
+    display:inline-block
+}
+.contenedor-imagenes {
+  display: flex;
+  width: 30px;
+  height:30px;
+  cursor:pointer;
+ 
+}
+
+.contenedor-imagenes img:first-child {
+  margin-right: 10px;
+  flex:1;
+}
+footer {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 15px;
+    color: #ffffff; 
+}

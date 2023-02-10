@@ -54,3 +54,7 @@ footer{
     margin: 50px 0;
     font-size: 15px;
 }
+.resaltado {
+    font-weight: bold;
+    text-decoration: overline;
+}
