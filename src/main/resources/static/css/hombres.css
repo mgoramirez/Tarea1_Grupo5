@@ -3,72 +3,90 @@
     Author     : Adrian
 */
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    background: #67A6ED;
+body {
+    background: #564687;
 }
-h1{
+
+h1 {
     font-family: 'Staatliches', cursive;
-    display: flex;
-    margin-bottom: 5px;
-    font-size: 70px;
-    color:#AE1548;
-    
+    position: absolute;
+    padding-left: 45vh;
+    color: #66ccff;
 }
-p{
+
+p {
     font-size: 30px;
     font-family: 'Staatliches', cursive;
     color: white;
-    text-align: center;
-    
+    text-align: center;  
 }
-a{
+
+a {
     text-decoration: none;
 }
-.contenedor{
+
+.contenedor {
     height: 100%;
     width: 100%;
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
-    
-}
-.producto{
-    padding: 10px;
-    background-color: #5A96D9 ;
+    margin-bottom: 20px;   
 }
 
-.imagen{
+.producto {
+    padding: 10px;
+    background-color: #3d3066 ;
+}
+
+.imagen {
     height: 300px;
     width: 400px;
     /*display: inline-block;*/
 }
-.nav-bar{
-    display: flex;
-    justify-content: space-evenly;  
+
+.nav-bar {
+    display: flex;  
     align-items: center;
-    flex:1;
-    background-color: #5A96D9;
-    margin-bottom: 15px ;
+    flex: 1;
+    background-color: #3d3066;
+    margin-bottom: 15px;
 }
-.nav-bar ul li{
+
+nav {
+    flex: 1;
+    padding-top: 25px;
+    padding-left: 105vh;
+    padding-bottom: 25px;
+}
+
+nav ul li {
+    position: static;
     display: inline-block;
     font-size: 20px;
     margin: 0 10px;
     color: #061BCF;
 }
-footer{
-    text-align: center;
-    margin: 50px 0;
-    font-size: 15px;
+
+nav ul li a {
+    font-family: 'Prompt', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
 }
+
+.resaltado {
+    font-weight: bold;
+    text-decoration: overline;
+}
+
 .logo {
     position: absolute;
     padding-left: 1vh;
@@ -82,7 +100,10 @@ footer{
     width: 150px;
     cursor: pointer;
 }
-.resaltado {
-    font-weight: bold;
-    text-decoration: overline;
+
+footer {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 15px;
+    color: #ffffff; 
 }
